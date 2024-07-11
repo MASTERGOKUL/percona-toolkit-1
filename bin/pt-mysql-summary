@@ -2105,7 +2105,6 @@ section_innodb () {
          transaction_isolation_var="transaction_isolation"
    fi
 
-
    name_val "Buffer Pool Fill"   "$(fuzzy_pct ${bp_fill} ${bp_pags})"
    name_val "Buffer Pool Dirty"  "$(fuzzy_pct ${bp_dirt} ${bp_pags})"
 
